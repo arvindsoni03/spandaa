@@ -5720,131 +5720,256 @@ var SADHANAS = [
       {
         name: 'Kālī', dev: 'काली', num: '1st',
         mantra: 'ॐ क्रीं काल्यै नमः',
-        bijaMantra: 'क्रीं (Krīṃ)',
+        bijaMantra: 'क्रीं (Krīṃ) — Kāmakalā bīja',
         dhyana: 'करालवदनां घोरां मुक्तकेशीं चतुर्भुजाम्।\nकालिकां दक्षिणां दिव्यां मुण्डमालाविभूषिताम्।।\nसद्यश्छिन्नशिरः खड्गवामाधोर्ध्वकरद्वयाम्।\nअभयं वरदं चैव दक्षिणोर्ध्वाधःपाणिकाम्।।',
-        dhyana_meaning: 'She of terrible face, fierce, with loose hair, four-armed — the divine Dakṣiṇā Kālī, adorned with a garland of skulls. Upper-left hand holds a severed head, lower-left a sword; upper-right grants fearlessness, lower-right grants boons.',
-        krama: ['Purify with ācamana and prāṇāyāma', 'Saṅkalpa — state intent, date, count', 'Kara nyāsa with Krīṃ bīja', 'Aṅga nyāsa with Krīṃ bīja', 'Dhyāna — hold the above śloka until her form stabilizes', 'Mūla mantra japa — minimum 108', 'Kavaca pāṭha (Kālī Kavaca)', 'Stotra — Mahākālī Aṣṭottara or Kārpūrādi Stotra', 'Samarpana'],
-        naivedya: 'Red hibiscus, red cloth, fish, meat (in Vāmācāra); in Dakṣiṇācāra: red flowers, red sandalwood, pomegranate',
+        dhyana_meaning: 'She of terrible face, four-armed, adorned with skulls — upper-left: severed head, lower-left: sword; upper-right: fearlessness, lower-right: boon.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: 'Three sips' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा ।\nयः स्मरेत् पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ।।', note: 'Sprinkle water on self and pūjā materials' },
+          { step: 'Prāṇāyāma', mantra: 'ॐ भूः । ॐ भुवः । ॐ स्वः ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ।।', note: 'Three rounds nāḍī-śodhana' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि-वार-नक्षत्र] श्रीकाली जपानुष्ठानं करिष्ये ।', note: 'State your name, gotra, and japa count' },
+          { step: 'Kara Nyāsa', mantra: 'क्रीं अङ्गुष्ठाभ्यां नमः । क्रीं तर्जनीभ्यां नमः ।\nक्रीं मध्यमाभ्यां नमः । क्रीं अनामिकाभ्यां नमः ।\nक्रीं कनिष्ठिकाभ्यां नमः । क्रीं करतलकरपृष्ठाभ्यां नमः ।।', note: 'Touch each finger pair with Krīṃ bīja' },
+          { step: 'Aṅga Nyāsa', mantra: 'क्रीं हृदयाय नमः । क्रीं शिरसे स्वाहा ।\nक्रीं शिखायै वषट् । क्रीं कवचाय हुम् ।\nक्रीं नेत्रत्रयाय वौषट् । क्रीं अस्त्राय फट् ।।', note: 'Touch heart, head, topknot, arms, eyes, snap fingers' },
+          { step: 'Dhyāna', mantra: 'करालवदनां घोरां मुक्तकेशीं चतुर्भुजाम्...\n(full śloka above — hold form for 5–10 breaths)', note: 'Visualize dark form clearly before japa' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ क्रीं काल्यै नमः', note: 'Minimum 108. Time-based antarmukha practice. Full anuṣṭhāna: 1,00,000' },
+          { step: 'Kālī Kavaca', mantra: 'ॐ असय श्रीकालीकवचस्य भैरव ऋषिः ।\nत्रिष्टुप् छन्दः । श्रीकाली देवता ।\nक्रीं बीजम् । हुं शक्तिः । फट् कीलकम् ।\nश्रीकालीप्रसादसिद्ध्यर्थे जपे विनियोगः ।।\nक्रीं काली मे पातु पूर्वे च । क्रीं आग्नेय्यां पातु कालिका ।\nदक्षिणे पातु चामुण्डा । नैऋत्यां शव-वाहिनी ।।', note: 'Recite for protection before main japa' },
+          { step: 'Kārpūrādi Stotra', mantra: 'कर्पूरगौरं करुणावतारं संसारसारम् भुजगेन्द्रहारम् ।\nसदावसन्तं हृदयारविन्दे भवं भवानीसहितं नमामि ।।', note: 'Or Mahākālī Aṣṭottara — 108 names' },
+          { step: 'Samarpana', mantra: 'ॐ क्रीं काल्यै नमः ।\nजपेन मया लब्धं फलं श्रीकाल्यै समर्पयामि ।\nमन्त्रहीनं क्रियाहीनं भक्तिहीनं महेश्वरि ।\nयत्पूजितं मया देवि परिपूर्णं तदस्तु मे ।।', note: 'Offer with prostration' }
+        ],
+        krama: ['Purify with ācamana and prāṇāyāma', 'Saṅkalpa', 'Kara nyāsa with Krīṃ bīja', 'Aṅga nyāsa', 'Dhyāna', 'Mūla mantra japa — minimum 108', 'Kavaca pāṭha', 'Stotra', 'Samarpana'],
+        naivedya: 'Red hibiscus, red sandalwood, pomegranate (Dakṣiṇācāra); fish/meat (Vāmācāra — requires dīkṣā)',
         bestTime: 'Amāvasyā, midnight, Kṛṣṇa pakṣa',
         vara: 'Śanivāra, Maṅgalavāra',
-        note: 'Kālī is the most direct and most intense of the Mahāvidyās. Her sādhana dissolves the ego at the root. Even sātvika upāsanā of Kālī requires sincerity above ritual perfection — she accepts the offering of one\'s own fear and limitation.',
-        warning: 'Full Dakṣiṇācāra Kālī upāsanā as given here is appropriate for all practitioners. The Vāmācāra forms (pañcamakāra) require direct dīkṣā and are not described here.'
+        note: 'Kālī is the most direct of the Mahāvidyās — her sādhana dissolves ego at the root. Sincerity is more important than ritual perfection. She accepts the offering of one's own fear.',
+        warning: 'Full Dakṣiṇācāra Kālī upāsanā is appropriate for all practitioners. The Vāmācāra forms (pañcamakāra) require direct dīkṣā — not described here.'
       },
       {
         name: 'Tārā', dev: 'तारा', num: '2nd',
         mantra: 'ॐ ह्रीं स्त्रीं हुं फट्',
-        bijaMantra: 'स्त्रीं (Strīṃ)',
+        bijaMantra: 'स्त्रीं (Strīṃ) — Tārā bīja',
         dhyana: 'नीलवर्णां त्रिनेत्रां च स्मितवक्त्रां वरप्रदाम्।\nखड्गकर्त्री कपालं च नीलोत्पलं च बिभ्रतीम्।।\nव्याघ्रचर्माम्बरधरां शवहृदि स्थितां शिवाम्।।',
-        dhyana_meaning: 'Blue-complexioned, three-eyed, with a gentle smiling face, granting boons. Holding sword, scissors, skull-bowl, and blue lotus. Clad in tiger skin, standing on a corpse\'s heart — the auspicious one.',
-        krama: ['Ācamana and prāṇāyāma', 'Saṅkalpa', 'Kara and aṅga nyāsa with Strīṃ bīja', 'Tārā dhyāna', 'Mūla mantra japa — 108 minimum', 'Tārā Stotra pāṭha', 'Nīla (blue) flower offering', 'Samarpana'],
-        naivedya: 'Blue flowers (nīlotpala), fish (in Vāmācāra), coconut, dark sweets in sātvika tradition',
-        bestTime: 'Kṛṣṇa pakṣa, Amāvasyā',
+        dhyana_meaning: 'Blue-complexioned, three-eyed, gentle smile — holding sword, scissors, skull-bowl, blue lotus. Tiger-skinned, standing on a corpse's heart.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा ।\nयः स्मरेत् पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ।।', note: '' },
+          { step: 'Prāṇāyāma', mantra: 'ॐ भूः । ॐ भुवः । ॐ स्वः ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।।', note: 'Three rounds' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीतारा जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'स्त्रीं अङ्गुष्ठाभ्यां नमः । स्त्रीं तर्जनीभ्यां नमः ।\nस्त्रीं मध्यमाभ्यां नमः । स्त्रीं अनामिकाभ्यां नमः ।\nस्त्रीं कनिष्ठिकाभ्यां नमः । स्त्रीं करतलकरपृष्ठाभ्यां नमः ।।', note: '' },
+          { step: 'Aṅga Nyāsa', mantra: 'स्त्रीं हृदयाय नमः । स्त्रीं शिरसे स्वाहा ।\nस्त्रीं शिखायै वषट् । स्त्रीं कवचाय हुम् ।\nस्त्रीं नेत्रत्रयाय वौषट् । स्त्रीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Tārā Dhyāna', mantra: 'नीलवर्णां त्रिनेत्रां... (full śloka above)', note: 'Visualize on blue lotus — śmaśāna setting at night' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्रीं स्त्रीं हुं फट्', note: 'Time-based, antarmukha. Full anuṣṭhāna: 1,00,000' },
+          { step: 'Tārā Stotra', mantra: 'तारे तुत्तारे तुरे स्वाहा ।\n(Buddhist Tārā mantra — same deity, different transmission)\nजय तारे देवि नीलाम्बरे शवासने ।\nखड्गखेटकधारिण्यै तारायै नमो नमः ।।', note: 'Tārā is the bridge between Hindu and Buddhist tantra' },
+          { step: 'Nīla (Blue) Offering', mantra: 'ॐ तारायै नमः — नीलोत्पलं समर्पयामि ।', note: 'Offer blue flowers (nīlotpala/nīla lotus)' },
+          { step: 'Samarpana', mantra: 'ॐ ह्रीं स्त्रीं हुं फट् ।\nजपेन मया लब्धं फलं श्रीतारायै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa', 'Kara and aṅga nyāsa with Strīṃ', 'Tārā dhyāna', 'Mūla mantra japa', 'Tārā Stotra', 'Nīla flower offering', 'Samarpana'],
+        naivedya: 'Blue flowers (nīlotpala), coconut, dark sweets; fish (Vāmācāra)',
+        bestTime: 'Kṛṣṇa pakṣa, Amāvasyā, midnight',
         vara: 'Maṅgalavāra, Śanivāra',
-        note: 'Tārā is the Mahāvidyā of speech liberation and crossing the ocean of saṃsāra (tāraṇa = to cross). Her sādhana is deeply connected to the Vajrayāna Buddhist Tārā — the same archetype expressed differently.',
+        note: 'Tārā grants vāk-siddhi — mastery of speech and liberation across saṃsāra. Her sādhana connects to the Vajrayāna Buddhist Tārā — same archetype, different transmission.',
         warning: ''
       },
       {
         name: 'Ṣoḍaśī / Tripura Sundarī', dev: 'षोडशी', num: '3rd',
         mantra: 'ॐ ऐं ह्रीं श्रीं त्रिपुर सुन्दरीयै नमः',
-        bijaMantra: 'ऐं ह्रीं श्रीं (the three bījas of Śrīvidyā)',
+        bijaMantra: 'ऐं ह्रीं श्रीं (Vāk · Māyā · Śrī — the three bījas of Śrīvidyā)',
         dhyana: 'बालार्कमण्डलाभासां चतुर्बाहुं त्रिलोचनाम्।\nपाशाङ्कुशौ च वरदामभयं च बिभ्रतीम्।।\nसर्वाभरणसम्पन्नां रक्तवस्त्रां मनोहराम्।।',
-        dhyana_meaning: 'Radiant as the morning sun, four-armed, three-eyed — holding noose and goad, granting boons and fearlessness. Adorned with all ornaments, clad in red cloth, captivating the mind.',
-        krama: ['Ācamana', 'Prāṇāyāma (three rounds nāḍī-śodhana)', 'Guru-vandana', 'Saṅkalpa', 'Kara nyāsa', 'Aṅga nyāsa', 'Navāvaraṇa framework (outer pūjā)', 'Dhyāna on the Lalitā form', 'Pañcadaśī / Ṣoḍaśī japa (count per guru\'s instruction)', 'Lalitā Sahasranāma or Saundaryalaharī pāṭha', 'Samarpana to the lineage'],
-        naivedya: 'Red flowers, red sandalwood, lotus, pañcāmṛta, sweet rice (pāyasa)',
+        dhyana_meaning: 'Radiant as the morning sun, four-armed, three-eyed — holding noose, goad, granting boon and fearlessness. Adorned with all ornaments, clad in red, captivating.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा... (standard)', note: '' },
+          { step: 'Prāṇāyāma (Nāḍī-śodhana)', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ॐ महः ॐ जनः ॐ तपः ॐ सत्यम् ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ।।', note: 'Three rounds — Śrīvidyā sādhana requires clean prāṇa' },
+          { step: 'Guru Vandana', mantra: 'श्रीगुरुभ्यो नमः । श्रीपरमगुरुभ्यो नमः ।\nश्रीपरमेष्ठिगुरुभ्यो नमः ।।', note: 'Bow to lineage before beginning Śrīvidyā practice' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीललिता त्रिपुरसुन्दरी जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'ऐं अङ्गुष्ठाभ्यां नमः । ह्रीं तर्जनीभ्यां नमः ।\nश्रीं मध्यमाभ्यां नमः । ऐं अनामिकाभ्यां नमः ।\nह्रीं कनिष्ठिकाभ्यां नमः । श्रीं करतलकरपृष्ठाभ्यां नमः ।।', note: '' },
+          { step: 'Aṅga Nyāsa', mantra: 'ऐं हृदयाय नमः । ह्रीं शिरसे स्वाहा ।\nश्रीं शिखायै वषट् । ऐं कवचाय हुम् ।\nह्रीं नेत्रत्रयाय वौषट् । श्रीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Navāvaraṇa Pūjā (Outer)', mantra: 'ॐ ऐं ह्रीं श्रीं — भूपुरस्य बहिः पूजयामि ।\nत्रैलोक्यमोहन चक्र — अणिमादि अष्टसिद्धि सहित पूजयामि ।।', note: 'Outer framework — full navāvaraṇa transmitted by guru only' },
+          { step: 'Pañcadaśī / Ṣoḍaśī Japa', mantra: '[Pañcadaśī — 15-syllable mantra transmitted in dīkṣā only]\n[Ṣoḍaśī — 16-syllable — highest Śrīvidyā mantra]\nOuter accessible mantra: ॐ ऐं ह्रीं श्रीं त्रिपुरसुन्दरीयै नमः ।', note: 'Pañcadaśī and Ṣoḍaśī require formal Śrīvidyā dīkṣā' },
+          { step: 'Lalitā Sahasranāma', mantra: 'ॐ ऐं ह्रीं श्रीं ।\nश्रीमाता श्रीमहाराज्ञी श्रीमत्सिंहासनेश्वरी ।\nचिदग्निकुण्डसम्भूता देवकार्यसमुद्यता ।।\n(continue — 1000 names from Brahmāṇḍa Purāṇa)', note: 'Daily pāṭha recommended for all Śrīvidyā upāsakas' },
+          { step: 'Samarpana', mantra: 'ॐ ऐं ह्रीं श्रीं ।\nजपेन मया लब्धं फलं श्रीललितायै समर्पयामि ।\nऐं ह्रीं श्रीं श्रीमात्रे नमः ।।', note: '' }
+        ],
+        krama: ['Ācamana', 'Prāṇāyāma (three rounds nāḍī-śodhana)', 'Guru-vandana', 'Saṅkalpa', 'Kara nyāsa', 'Aṅga nyāsa', 'Navāvaraṇa framework', 'Dhyāna on Lalitā form', 'Pañcadaśī japa', 'Lalitā Sahasranāma', 'Samarpana'],
+        naivedya: 'Red flowers, lotus, pañcāmṛta, sweet rice (pāyasa), red sandalwood',
         bestTime: 'Pūrṇimā, Śukla pakṣa, brahma-muhūrta',
         vara: 'Śukravāra, Guruvāra',
-        note: 'Ṣoḍaśī is the supreme Mahāvidyā — she who is sixteen (ṣoḍaśa), the fullness of the moon, the culmination of all tantric upāsanā. Her mantra (Pañcadaśī or Ṣoḍaśī) is the pinnacle of Śrīvidyā. The full navāvaraṇa pūjā is the most complete ritual in all of tantra.',
-        warning: 'The Pañcadaśī and Ṣoḍaśī mantras require formal dīkṣā in the Śrīvidyā lineage. What is given here is the outer sātvika framework. The inner navāvaraṇa details are transmitted orally.'
+        note: 'Ṣoḍaśī is the supreme Mahāvidyā — the fullness of the moon, culmination of all tantric upāsanā. The Pañcadaśī is the pinnacle of Śrīvidyā.',
+        warning: 'Pañcadaśī and Ṣoḍaśī mantras require formal Śrīvidyā dīkṣā. The outer sātvika framework is given here. Inner navāvaraṇa details are oral transmission only.'
       },
       {
         name: 'Bhuvaneśvarī', dev: 'भुवनेश्वरी', num: '4th',
         mantra: 'ॐ ह्रीं भुवनेश्वर्यै नमः',
-        bijaMantra: 'ह्रीं (Hrīṃ) — Māyā bīja',
+        bijaMantra: 'ह्रीं (Hrīṃ) — Māyā bīja, Śakti bīja',
         dhyana: 'उदयत्भानुसंकाशां त्रिलोचनां सुनासिकाम्।\nस्मेरवक्त्रां चतुर्बाहुं वरदाभयहस्तिकाम्।।\nपाशाङ्कुशधरां देवीं रत्नकिरीटशोभिताम्।।',
-        dhyana_meaning: 'Resembling the rising sun, three-eyed, fine-nosed, with a smiling face, four-armed — hands granting boons and fearlessness, holding noose and goad. Adorned with a crown of jewels.',
-        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa', 'Hrīṃ bīja nyāsa (kara and aṅga)', 'Dhyāna on Bhuvaneśvarī\'s form', 'Mūla mantra japa — minimum 108', 'Bhuvaneśvarī Stotra', 'Samarpana'],
+        dhyana_meaning: 'Like the rising sun, three-eyed, fine-nosed, smiling, four-armed — granting boons and fearlessness, holding noose and goad, crowned with jewels.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा... (standard)', note: '' },
+          { step: 'Prāṇāyāma', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः — तीन बार ।', note: 'Ideally done outdoors at dawn facing east' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीभुवनेश्वरी जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'ह्रीं अङ्गुष्ठाभ्यां नमः । ह्रीं तर्जनीभ्यां नमः ।\nह्रीं मध्यमाभ्यां नमः । ह्रीं अनामिकाभ्यां नमः ।\nह्रीं कनिष्ठिकाभ्यां नमः । ह्रीं करतलकरपृष्ठाभ्यां नमः ।।', note: 'Hrīṃ on all — she is undivided space' },
+          { step: 'Aṅga Nyāsa', mantra: 'ह्रीं हृदयाय नमः । ह्रीं शिरसे स्वाहा ।\nह्रीं शिखायै वषट् । ह्रीं कवचाय हुम् ।\nह्रीं नेत्रत्रयाय वौषट् । ह्रीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna', mantra: 'उदयत्भानुसंकाशां... (full śloka above)', note: 'Meditate on infinite space as her body' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्रीं भुवनेश्वर्यै नमः', note: 'Minimum 108. Full anuṣṭhāna: 1,00,000' },
+          { step: 'Bhuvaneśvarī Stotra', mantra: 'जय देवि जगन्माता जय भुवनेश्वरि ।\nजय सर्वेश्वरि देवि जय सर्वहितङ्करि ।।\nत्वं माया परमा शक्तिः त्वं धात्री पालिनी च या ।\nत्वमेव भुवनं सर्वं त्वमेव परमेश्वरी ।।', note: '' },
+          { step: 'Samarpana', mantra: 'ॐ ह्रीं भुवनेश्वर्यै नमः ।\nजपेन मया लब्धं फलं श्रीभुवनेश्वर्यै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa', 'Hrīṃ bīja nyāsa', 'Dhyāna on Bhuvaneśvarī', 'Mūla mantra japa', 'Bhuvaneśvarī Stotra', 'Samarpana'],
         naivedya: 'White flowers, camphor, white sweets, coconut',
-        bestTime: 'Śukla pakṣa, Pūrṇimā',
+        bestTime: 'Śukla pakṣa, Pūrṇimā, dawn facing east',
         vara: 'Śukravāra',
-        note: 'Bhuvaneśvarī is the great space — she whose body IS the universe (bhuvana = world, īśvarī = queen). Her bīja Hrīṃ is the Māyā bīja — the sound of Śakti\'s creative expansion. She is meditated upon as the space in which all phenomena arise and dissolve.',
+        note: 'Bhuvaneśvarī's body IS the universe. Her bīja Hrīṃ is the sound of Śakti's creative expansion — space itself is her mantra.',
         warning: ''
       },
       {
         name: 'Bhairavī', dev: 'भैरवी', num: '5th',
         mantra: 'ॐ ह्सैं ह्सकलीं ह्सौः',
-        bijaMantra: 'ह्सैं ह्सकलीं ह्सौः (Tripurā Bhairavī bījas)',
+        bijaMantra: 'ह्सैं ह्सकलीं ह्सौः (Tripurā Bhairavī bīja-trika)',
         dhyana: 'उद्यद्भानुसहस्राभां हेमकान्तिसमप्रभाम्।\nस्मेरानुग्रहदां सौम्यां शङ्करार्धाङ्गसंस्थिताम्।।',
-        dhyana_meaning: 'Brilliant as a thousand rising suns, golden in radiance — gentle, graceful, smiling, granting grace, seated on half of Śaṅkara\'s body (as Ardhanārī).',
-        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa', 'Kara and aṅga nyāsa with Bhairavī bījas', 'Dhyāna śloka meditation', 'Mūla mantra japa', 'Bhairavī Stotra', 'Naivedya offering', 'Samarpana'],
+        dhyana_meaning: 'Brilliant as a thousand rising suns, golden in radiance — smiling, graceful, granting grace, seated on half of Śaṅkara's body.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा... (standard)', note: '' },
+          { step: 'Prāṇāyāma with Agni-dhāraṇā', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ।\nरं — अग्निबीज — feel fire in the navel on kumbhaka', note: 'Bhairavī governs the prāṇic fire — activate it' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीभैरवी जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'ह्सैं अङ्गुष्ठाभ्यां नमः । ह्सकलीं तर्जनीभ्यां नमः ।\nह्सौः मध्यमाभ्यां नमः । ह्सैं अनामिकाभ्यां नमः ।\nह्सकलीं कनिष्ठिकाभ्यां नमः । ह्सौः करतलकरपृष्ठाभ्यां नमः ।।', note: 'The three bījas on alternating fingers' },
+          { step: 'Aṅga Nyāsa', mantra: 'ह्सैं हृदयाय नमः । ह्सकलीं शिरसे स्वाहा ।\nह्सौः शिखायै वषट् । ह्सैं कवचाय हुम् ।\nह्सकलीं नेत्रत्रयाय वौषट् । ह्सौः अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna + Trataka', mantra: 'उद्यद्भानुसहस्राभां... (full śloka above)', note: 'Fire meditation or ghee lamp trataka recommended' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्सैं ह्सकलीं ह्सौः', note: 'Minimum 108. Full anuṣṭhāna: 1,00,000. With prāṇāyāma between rounds' },
+          { step: 'Bhairavī Stotra', mantra: 'ॐ नमो भगवति भैरवि भीमरूपिणि ।\nभक्तवत्सले सर्वसिद्धिदायिनि ।\nज्वल ज्वल प्रज्वल प्रज्वल — हुं हुं फट् स्वाहा ।।', note: '' },
+          { step: 'Samarpana', mantra: 'ॐ ह्सैं ह्सकलीं ह्सौः ।\nजपेन मया लब्धं फलं श्रीभैरव्यै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana, prāṇāyāma with agni-dhāraṇā', 'Saṅkalpa', 'Kara and aṅga nyāsa with Bhairavī bījas', 'Dhyāna + trataka', 'Mūla mantra japa', 'Bhairavī Stotra', 'Samarpana'],
         naivedya: 'Red flowers, pomegranate, red sandalwood, blood-red hibiscus',
         bestTime: 'Caturdaśī, Amāvasyā, sunrise',
         vara: 'Maṅgalavāra',
-        note: 'Bhairavī is the fierce aspect of Lalitā — she who is terrible (bhairavī) yet ultimately the same as Tripura Sundarī. She governs the prāṇic fire and the intensity of sādhana. Her sādhana burns away karmic residue.',
-        warning: 'Her bīja mantras are among the most intense in the tradition. Use exactly as given — do not mix with other bīja sequences without lineage guidance.'
+        note: 'Bhairavī governs the prāṇic fire and kuṇḍalinī śakti — she burns away karmic residue through tapas. She is ultimately identical with Tripura Sundarī.',
+        warning: 'Her bīja mantras are among the most intense in the tradition. Do not mix with other bīja sequences without lineage guidance.'
       },
       {
         name: 'Chinnamastā', dev: 'छिन्नमस्ता', num: '6th',
         mantra: 'ॐ श्रीं ह्रीं क्लीं ऐं वज्रवैरोचनीये हूं हूं फट् स्वाहा',
-        bijaMantra: 'श्रीं ह्रीं क्लीं ऐं',
+        bijaMantra: 'श्रीं ह्रीं क्लीं ऐं (four bījas — Śrī · Māyā · Kāma · Vāk)',
         dhyana: 'प्रत्यालीढपदां घोरां छिन्नमस्तां वरप्रदाम्।\nस्वशिरश्छेदिताशोणितपायिनीमात्मरूपिणीम्।।',
-        dhyana_meaning: 'Standing in the fierce warrior stance, granting boons — Chinnamastā who has severed her own head and drinks the blood, the self-manifested one.',
-        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa with clarity of intent', 'Nyāsa with the given bījas', 'Dhyāna — meditate on self-sacrifice as ego-dissolution', 'Mūla mantra japa', 'Samarpana'],
-        naivedya: 'Red hibiscus, red sandalwood, blood-red offerings',
+        dhyana_meaning: 'Standing in the fierce warrior stance, granting boons — Chinnamastā who has severed her own head and drinks the flowing blood, the self-manifested one.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Prāṇāyāma (Prāṇa-dhāraṇā)', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ।\nसः — on inhalation (Śiva / puruṣa)\nहं — on exhalation (Śakti / prāṇa) — Hamsa japa', note: 'Her sādhana is about prāṇa beyond body — breathwork is essential' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीछिन्नमस्ता जपानुष्ठानं करिष्ये ।', note: 'State intent clearly — this is ego dissolution practice' },
+          { step: 'Kara Nyāsa', mantra: 'श्रीं अङ्गुष्ठाभ्यां नमः । ह्रीं तर्जनीभ्यां नमः ।\nक्लीं मध्यमाभ्यां नमः । ऐं अनामिकाभ्यां नमः ।\nवज्रवैरोचनीये कनिष्ठिकाभ्यां नमः । हूं हूं फट् करतलकरपृष्ठाभ्यां नमः ।।', note: '' },
+          { step: 'Aṅga Nyāsa', mantra: 'श्रीं हृदयाय नमः । ह्रीं शिरसे स्वाहा ।\nक्लीं शिखायै वषट् । ऐं कवचाय हुम् ।\nवज्रवैरोचनीये नेत्रत्रयाय वौषट् । हूं हूं फट् अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna on Self-Sacrifice', mantra: 'प्रत्यालीढपदां घोरां... (full śloka above)', note: 'Meditate: the severed head = ego destroyed, blood = prāṇa liberated' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ श्रीं ह्रीं क्लीं ऐं वज्रवैरोचनीये हूं हूं फट् स्वाहा', note: 'Under guru guidance only. Minimum 108 per session' },
+          { step: 'Samarpana', mantra: 'ॐ श्रीं ह्रीं क्लीं ऐं वज्रवैरोचनीये ।\nजपेन मया लब्धं फलं श्रीछिन्नमस्तायै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana, prāṇāyāma with prāṇa-dhāraṇā', 'Saṅkalpa with clear intent', 'Nyāsa with given bījas', 'Dhyāna — ego-dissolution contemplation', 'Mūla mantra japa', 'Samarpana'],
+        naivedya: 'Red hibiscus, red sandalwood',
         bestTime: 'Amāvasyā, midnight',
         vara: 'Maṅgalavāra, Śanivāra',
-        note: 'Chinnamastā is the most intense of the ten — she who severs her own head, representing the complete destruction of ego and the liberation of prāṇa beyond body-identification. Her sādhana is not for early-stage practitioners.',
-        warning: 'Chinnamastā sādhana is explicitly described in tradition as requiring guru proximity and dīkṣā. This framework is given for understanding and preparatory contemplation. Active sādhana should only begin with a living teacher\'s guidance.'
+        note: 'Chinnamastā represents complete destruction of ego and liberation of prāṇa beyond body-identification. Her sādhana is not for early-stage practitioners.',
+        warning: 'Chinnamastā sādhana requires guru proximity and dīkṣā. This framework is for understanding and preparatory contemplation only. Active sādhana: living teacher's guidance required.'
       },
       {
         name: 'Dhūmāvatī', dev: 'धूमावती', num: '7th',
         mantra: 'ॐ धूं धूं धूमावती देव्यै स्वाहा',
-        bijaMantra: 'धूं (Dhūṃ)',
+        bijaMantra: 'धूं (Dhūṃ) — smoke bīja',
         dhyana: 'विवर्णां चञ्चलां रूक्षां दीर्घां च मलिनाम्बराम्।\nविधवां विरलद्दन्तां काकध्वजरथस्थिताम्।।',
-        dhyana_meaning: 'Pale, restless, rough, tall, clad in dirty garments — a widow with sparse teeth, seated on a chariot bearing a crow flag.',
-        krama: ['Ācamana', 'Saṅkalpa', 'Dhūṃ bīja nyāsa', 'Dhyāna on her widowed, dispossessed form — contemplate impermanence', 'Mūla mantra japa', 'Offering of dry, leftover, or bitter foods', 'Samarpana'],
-        naivedya: 'Dry foods, leftover rice, bitter neem, crow feathers (symbolic offering)',
-        bestTime: 'Kṛṣṇa pakṣa, inauspicious times (she governs inauspiciousness itself)',
+        dhyana_meaning: 'Pale, restless, rough, tall, in dirty garments — a widow with sparse teeth, seated on a crow-flagged chariot.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा... (standard)', note: 'Use smoke or incense — appropriate to her nature' },
+          { step: 'Prāṇāyāma with Vairāgya Bhāvanā', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ।\nOn each exhalation: release attachment to [name what you hold onto]', note: 'Her prāṇāyāma is an act of deliberate letting go' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीधूमावती जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'धूं अङ्गुष्ठाभ्यां नमः । धूं तर्जनीभ्यां नमः ।\nधूं मध्यमाभ्यां नमः । धूं अनामिकाभ्यां नमः ।\nधूं कनिष्ठिकाभ्यां नमः । धूं करतलकरपृष्ठाभ्यां नमः ।।', note: '' },
+          { step: 'Aṅga Nyāsa', mantra: 'धूं हृदयाय नमः । धूं शिरसे स्वाहा ।\nधूं शिखायै वषट् । धूं कवचाय हुम् ।\nधूं नेत्रत्रयाय वौषट् । धूं अस्त्राय फट् ।।', note: '' },
+          { step: 'Crow Visualization Dhyāna', mantra: 'विवर्णां चञ्चलां रूक्षां... (full śloka above)', note: 'Meditate at dusk or in darkness — visualize total emptiness, then her form emerging from smoke' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ धूं धूं धूमावती देव्यै स्वाहा', note: 'Practice in darkness or dusk. Time-based, inward. Full anuṣṭhāna: 1,00,000' },
+          { step: 'Dhūmāvatī Stotra', mantra: 'जय जय धूमावति देवि विधवे शवाहन-स्थिते ।\nकाककेतन-सम्युक्ते नमो वै भय-हारिणि ।।\nदारिद्र्यनाशिनि देवि सकलार्थप्रदायिनि ।\nभक्तानां वरदे नित्यं धूमावति नमोऽस्तु ते ।।', note: '' },
+          { step: 'Offering of Inauspicious Items', mantra: 'ॐ धूमावत्यै नमः — शुष्कान्नं समर्पयामि ।', note: 'Offer dry/leftover/bitter foods — neem, stale rice. She governs what others reject.' },
+          { step: 'Samarpana', mantra: 'ॐ धूं धूं धूमावती स्वाहा ।\nजपेन मया लब्धं फलं श्रीधूमावत्यै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana', 'Saṅkalpa', 'Dhūṃ bīja nyāsa', 'Dhyāna at dusk', 'Mūla mantra japa', 'Stotra', 'Inauspicious offering', 'Samarpana'],
+        naivedya: 'Dry foods, bitter neem, leftover rice, crow feathers (symbolic)',
+        bestTime: 'Kṛṣṇa pakṣa, inauspicious times, dusk',
         vara: 'Śanivāra',
-        note: 'Dhūmāvatī is the only widow among the Mahāvidyās — she who exists after Śiva has been swallowed, in the empty, inauspicious space. Her sādhana teaches renunciation through radical acceptance of what appears to be loss, poverty, or misfortune. She governs the alchemical dissolution that precedes transformation.',
+        note: 'Dhūmāvatī is the only widow among the Mahāvidyās — she who exists after Śiva has been swallowed. She teaches vairāgya through radical acceptance of loss. Profound for monastic inclination.',
         warning: ''
       },
       {
         name: 'Bagalāmukhī', dev: 'बगलामुखी', num: '8th',
         mantra: 'ॐ ह्लीं बगलामुखि सर्वदुष्टानां वाचं मुखं पदं स्तम्भय जिह्वां कीलय बुद्धिं विनाशय ह्लीं ॐ स्वाहा',
-        bijaMantra: 'ह्लीं (Hlīṃ)',
+        bijaMantra: 'ह्लीं (Hlīṃ) — Stambhana bīja',
         dhyana: 'सौवर्णासनसंस्थां त्रिनयनां पीताम्बरां सस्मिताम्।\nहेमाभां रिपुजिह्वां वामकरे धारयन्तीम्।।\nखट्वाङ्गं दधतीं देवीं पीतालङ्कारभूषिताम्।।',
-        dhyana_meaning: 'Seated on a golden throne, three-eyed, smiling, clad in yellow — golden-complexioned, grasping an enemy\'s tongue in her left hand, holding a club, adorned with yellow ornaments.',
-        krama: ['Ācamana', 'Prāṇāyāma', 'Saṅkalpa', 'Hlīṃ bīja kara nyāsa (both hands — right then left)', 'Aṅga nyāsa with Hlīṃ', 'Dhyāna on her golden form with enemy\'s tongue', 'Mūla mantra japa — minimum 108, for full sādhana 1008 per day for 11 days', 'Bagalāmukhī Stotra', 'Naivedya — yellow foods, yellow flowers', 'Pradakṣiṇā (3 times)', 'Samarpana'],
+        dhyana_meaning: 'Seated on a golden throne, three-eyed, smiling, in yellow — golden-complexioned, grasping enemy's tongue in left hand, holding club, adorned with yellow ornaments.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: 'Wear yellow clothing' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा... (standard)', note: '' },
+          { step: 'Prāṇāyāma', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः — ह्लीं ह्लीं ह्लीं', note: 'Add Hlīṃ at end of each round' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीबगलामुखी जपानुष्ठानं करिष्ये ।', note: 'State specific purpose of sādhana' },
+          { step: 'Kara Nyāsa (both hands right then left)', mantra: 'ह्लीं अङ्गुष्ठाभ्यां नमः (right first, then left)\nह्लीं तर्जनीभ्यां नमः (right then left)\nह्लीं मध्यमाभ्यां नमः । ह्लीं अनामिकाभ्यां नमः ।\nह्लीं कनिष्ठिकाभ्यां नमः । ह्लीं करतलकरपृष्ठाभ्यां नमः ।।', note: 'Right hand first, then left — lineage-specific order' },
+          { step: 'Aṅga Nyāsa', mantra: 'ह्लीं हृदयाय नमः । ह्लीं शिरसे स्वाहा ।\nह्लीं शिखायै वषट् । ह्लीं कवचाय हुम् ।\nह्लीं नेत्रत्रयाय वौषट् । ह्लीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna on Golden Form', mantra: 'सौवर्णासनसंस्थां... (full śloka above)', note: 'Visualize golden form clearly before japa' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्लीं बगलामुखि सर्वदुष्टानां वाचं मुखं पदं स्तम्भय\nजिह्वां कीलय बुद्धिं विनाशय ह्लीं ॐ स्वाहा', note: 'Full sādhana: 1008 per day for 11 days. Minimum: 108 per session' },
+          { step: 'Bagalāmukhī Stotra', mantra: 'सौवर्णाम्बरधारिणीं त्रिनयनां पीताम्बरालङ्कृताम् ।\nस्तम्भिताखिलविश्वां च वन्दे बगलामुखीम् ।।', note: '' },
+          { step: 'Yellow Offerings', mantra: 'ॐ बगलामुख्यै नमः — पीतपुष्पाणि समर्पयामि ।', note: 'Yellow marigold, champaka, turmeric, yellow sweets — all yellow' },
+          { step: 'Pradakṣiṇā (3 times)', mantra: 'ॐ ह्लीं बगलामुखि — नमः (3 times)', note: 'Circumambulate yantra or image three times' },
+          { step: 'Samarpana', mantra: 'ॐ ह्लीं बगलामुखि स्वाहा ।\nजपेन मया लब्धं फलं श्रीबगलामुख्यै समर्पयामि ।।', note: '' }
+        ],
+        krama: ['Ācamana (yellow cloth)', 'Saṅkalpa', 'Hlīṃ bīja kara nyāsa (right then left)', 'Aṅga nyāsa', 'Dhyāna on golden form', 'Mūla mantra japa', 'Stotra', 'Yellow offerings', 'Pradakṣiṇā (3)', 'Samarpana'],
         naivedya: 'Yellow flowers (marigold, champaka), turmeric, yellow sweets, ghee lamp',
         bestTime: 'Brahma-muhūrta or midnight; Tuesday',
         vara: 'Maṅgalavāra (Tuesday)',
-        note: 'Bagalāmukhī confers stambhana-śakti — the power to paralyze opposition, silence enemies, and win in conflicts and legal battles. Her sādhana is also deeply relevant for controlling one\'s own vāk (speech) impulses — she who controls the enemy\'s tongue also controls one\'s own.',
+        note: 'Bagalāmukhī confers stambhana-śakti — paralyzing opposition and silencing enemies. Also controls one's own speech impulses. The yellow color of all offerings is essential.',
         warning: ''
       },
       {
         name: 'Mātaṅgī', dev: 'मातङ्गी', num: '9th',
         mantra: 'ॐ ह्रीं ऐं भगवति मातङ्गेश्वरि श्रीं स्वाहा',
-        bijaMantra: 'ह्रीं ऐं श्रीं',
+        bijaMantra: 'ह्रीं ऐं श्रीं (Māyā · Vāk · Śrī)',
         dhyana: 'उद्यद्भानुसहस्रकान्तिमरुणक्षौमां शिरोमालिकाम्\nहस्ताम्भोरुहविभ्रतीं मणिगणैरनर्घ्यहारादिभिः।\nसिंहासनगतां त्रिनेत्रविलसद्वक्त्रारविन्दप्रभाम्\nश्रीमातङ्गीमनिशं भजे सकलसम्पत्प्रदां सिद्धिदाम्॥',
-        dhyana_meaning: 'She who shines with the brilliance of a thousand rising suns, clad in crimson silk, garlanded with skulls — bearing lotus hands, adorned with priceless jewels. Seated on a lion-throne, her three eyes blazing, her lotus face radiant — I worship Śrī Mātaṅgī always, granter of all wealth and siddhi.',
-        krama: ['Ācamana — three sips invoking Keśava, Mādhava, Govinda', 'Prāṇāyāma — three rounds nāḍī-śodhana', 'Saṅkalpa — state intent and count', 'Kara nyāsa with Hrīṃ Aiṃ Śrīṃ', 'Aṅga nyāsa with the same', 'Dhyāna — hold the above śloka for 5-10 breaths', 'Mūla mantra japa — minimum 108 per session', 'Mātaṅgī Aṣṭottara pāṭha', 'Samarpana to the lineage and guru'],
-        naivedya: 'Green vegetables, green flowers, green coconut, bilva leaves (in some traditions)',
+        dhyana_meaning: 'Brilliant as a thousand rising suns, in crimson silk, garlanded with skulls — lotus hands adorned with priceless jewels, seated on a lion-throne, three eyes blazing — I worship Śrī Mātaṅgī, granter of all wealth and siddhi.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: 'Three sips invoking the three names' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा ।\nयः स्मरेत् पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ।।', note: 'Sprinkle water — though she is the ucchiṣṭa goddess, outer śuddhi still done' },
+          { step: 'Prāṇāyāma (three rounds nāḍī-śodhana)', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ।।', note: 'Three rounds nāḍī-śodhana before Mātaṅgī japa' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि-वार-नक्षत्र] श्रीमातङ्गी जपानुष्ठानं करिष्ये ।', note: 'State intent and count' },
+          { step: 'Kara Nyāsa', mantra: 'ह्रीं अङ्गुष्ठाभ्यां नमः । ऐं तर्जनीभ्यां नमः ।\nश्रीं मध्यमाभ्यां नमः । ह्रीं अनामिकाभ्यां नमः ।\nऐं कनिष्ठिकाभ्यां नमः । श्रीं करतलकरपृष्ठाभ्यां नमः ।।', note: 'ह्रीं ऐं श्रीं cycling through fingers' },
+          { step: 'Aṅga Nyāsa', mantra: 'ह्रीं ऐं श्रीं हृदयाय नमः ।\nह्रीं ऐं श्रीं शिरसे स्वाहा ।\nह्रीं ऐं श्रीं शिखायै वषट् ।\nह्रीं ऐं श्रीं कवचाय हुम् ।\nह्रीं ऐं श्रीं नेत्रत्रयाय वौषट् ।\nह्रीं ऐं श्रीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna (hold 5–10 breaths)', mantra: 'उद्यद्भानुसहस्रकान्तिम्... (full śloka above)', note: 'Hold the form: lion-throne, crimson silk, three blazing eyes' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्रीं ऐं भगवति मातङ्गेश्वरि श्रीं स्वाहा', note: 'Antarmukha, time-based (not count-based per lineage). Minimum 108 per session' },
+          { step: 'Mātaṅgī Aṣṭottara (108 names)', mantra: 'ॐ मातङ्ग्यै नमः । ॐ उच्छिष्टचाण्डाल्यै नमः ।\nॐ मातङ्गमुन्यादृतायै नमः । ॐ सिद्धिसम्पत्प्रदायिन्यै नमः ।\nॐ ललितायै नमः । ॐ वाग्देव्यै नमः ।\n(continue — 108 names)', note: 'Recite after japa — grants vāk-siddhi' },
+          { step: 'Samarpana to Guru and Lineage', mantra: 'ॐ ह्रीं ऐं श्रीं मातङ्गेश्वर्यै नमः ।\nजपेन मया लब्धं फलं श्रीमातङ्ग्यै गुरुपरम्परायै च समर्पयामि ।।', note: 'Mātaṅgī is the guru-śiṣya channel — always offer to lineage' }
+        ],
+        krama: ['Ācamana — three sips with Keśava, Mādhava, Govinda', 'Prāṇāyāma — three rounds nāḍī-śodhana', 'Saṅkalpa', 'Kara nyāsa with ह्रीं ऐं श्रीं', 'Aṅga nyāsa', 'Dhyāna — 5–10 breaths', 'Mūla mantra japa', 'Mātaṅgī Aṣṭottara', 'Samarpana to guru and lineage'],
+        naivedya: 'Green vegetables, green flowers, green coconut, bilva leaves',
         bestTime: 'Brahma-muhūrta; Śukra and Śukla pakṣa',
         vara: 'Śukravāra, Guruvāra',
-        note: 'Mātaṅgī is the tantric Sarasvatī — the goddess of vāk-siddhi, inner knowledge, and command (rājya). In the Śrīvidyā lineage, the anusvāra in "Mātaṅgī" is pronounced "ng" (as in "sing"), NOT "m" or "eem." This oral distinction is the most common error in her recitation.',
+        note: 'Mātaṅgī is the tantric Sarasvatī — goddess of vāk-siddhi. In this lineage: anusvāra pronounced as "ng" (Mātaṅgī = "Mātangi"), NOT "m" or "eem." This oral distinction is the most common error.',
         warning: ''
       },
       {
         name: 'Kamalā', dev: 'कमला', num: '10th',
         mantra: 'ॐ ह्रीं श्रीं क्लीं महालक्ष्म्यै नमः',
-        bijaMantra: 'ह्रीं श्रीं क्लीं',
+        bijaMantra: 'ह्रीं श्रीं क्लीं (Māyā · Śrī · Kāma)',
         dhyana: 'आसीनां कमलासनां च वरदां सर्वाभरणभूषिताम्।\nद्विभुजां करपद्माभ्यां गजैरभिषेकयन्तीम्।।\nसर्वसम्पत्प्रदां लक्ष्मीं पद्महस्तां सुरूपिणीम्।।',
-        dhyana_meaning: 'Seated on a lotus, granting boons, adorned with all ornaments — two-armed, being bathed by elephants with lotus-hands. Lakṣmī, bestower of all wealth, holding lotus, beautiful.',
-        krama: ['Ācamana, prāṇāyāma', 'Saṅkalpa', 'Kara and aṅga nyāsa with Hrīṃ Śrīṃ Klīṃ', 'Kamalā dhyāna', 'Mūla mantra japa', 'Śrī Sūkta pāṭha (Ṛgvedic hymn to Lakṣmī)', 'Lotus or white flower offering', 'Samarpana'],
+        dhyana_meaning: 'Seated on a lotus, granting boons, adorned with all ornaments — two-armed, being bathed by elephants with lotus-hands. Lakṣmī, bestower of all wealth, holding lotus.',
+        vidhi_mantras: [
+          { step: 'Ācamana', mantra: 'ॐ केशवाय नमः । ॐ माधवाय नमः । ॐ गोविन्दाय नमः ।', note: '' },
+          { step: 'Pavitrikaraṇa', mantra: 'ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा ।\nयः स्मरेत् पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ।।', note: 'Use lotus petals or rose water if available' },
+          { step: 'Prāṇāyāma at Sunrise', mantra: 'ॐ भूः ॐ भुवः ॐ स्वः ।\nॐ सूर्याय नमः — facing east at sunrise', note: 'Kamalā is worshipped at sunrise — align with solar energy' },
+          { step: 'Saṅkalpa', mantra: 'ॐ विष्णुर्विष्णुर्विष्णुः । अद्य [तिथि] श्रीकमला-महालक्ष्मी जपानुष्ठानं करिष्ये ।', note: '' },
+          { step: 'Kara Nyāsa', mantra: 'ह्रीं अङ्गुष्ठाभ्यां नमः । श्रीं तर्जनीभ्यां नमः ।\nक्लीं मध्यमाभ्यां नमः । ह्रीं अनामिकाभ्यां नमः ।\nश्रीं कनिष्ठिकाभ्यां नमः । क्लीं करतलकरपृष्ठाभ्यां नमः ।।', note: '' },
+          { step: 'Aṅga Nyāsa', mantra: 'ह्रीं श्रीं क्लीं हृदयाय नमः ।\nह्रीं श्रीं क्लीं शिरसे स्वाहा ।\nह्रीं श्रीं क्लीं शिखायै वषट् ।\nह्रीं श्रीं क्लीं कवचाय हुम् ।\nह्रीं श्रीं क्लीं नेत्रत्रयाय वौषट् ।\nह्रीं श्रीं क्लीं अस्त्राय फट् ।।', note: '' },
+          { step: 'Dhyāna', mantra: 'आसीनां कमलासनां... (full śloka above)', note: 'Visualize golden lotus throne, two elephants bathing her with their trunks' },
+          { step: 'Mūla Mantra Japa', mantra: 'ॐ ह्रीं श्रीं क्लीं महालक्ष्म्यै नमः', note: 'Sunrise practice. Minimum 108. Full anuṣṭhāna: 1,00,000' },
+          { step: 'Śrī Sūkta (Ṛgvedic)', mantra: 'ॐ हिरण्यवर्णां हरिणीं सुवर्णरजतस्रजाम् ।\nचन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ।।\nतां म आवह जातवेदो लक्ष्मीमनपगामिनीम् ।\nयस्यां हिरण्यं विन्देयं गामश्वं पुरुषानहम् ।।\n(continue — 16 Ṛgvedic verses)', note: 'The most ancient Lakṣmī text — from Ṛgveda Khilāni' },
+          { step: 'Lotus / White Flower Offering', mantra: 'ॐ महालक्ष्म्यै नमः — कमलपुष्पाणि समर्पयामि ।\nश्रीं श्रीं श्रीं — पद्मं समर्पयामि ।।', note: 'Lotus is her essential offering — white or pink' },
+          { step: 'Samarpana', mantra: 'ॐ ह्रीं श्रीं क्लीं महालक्ष्म्यै नमः ।\nजपेन मया लब्धं फलं श्रीकमलायै समर्पयामि ।\nसर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके ।\nशरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ।।', note: '' }
+        ],
+        krama: ['Ācamana, prāṇāyāma at sunrise', 'Saṅkalpa', 'Kara and aṅga nyāsa', 'Kamalā dhyāna', 'Mūla mantra japa', 'Śrī Sūkta pāṭha', 'Lotus offering', 'Samarpana'],
         naivedya: 'Lotus flowers, white sweets, kheer, honey, gold-colored foods',
-        bestTime: 'Śukla pakṣa, Pūrṇimā, Śukravāra',
+        bestTime: 'Śukla pakṣa, Pūrṇimā, Śukravāra, sunrise',
         vara: 'Śukravāra (Friday)',
-        note: 'Kamalā is the tenth and most benign of the Mahāvidyās — identical with Lakṣmī, the goddess of prosperity, grace, and liberation. She represents the Mahāvidyā tradition\'s teaching that liberation (mokṣa) and abundance (bhoga) are not opposites — in the fully realized sādhaka, all of life becomes an expression of grace.',
+        note: 'Kamalā completes the daśa-mahāvidyā cycle with fullness and grace. She teaches that liberation (mokṣa) and abundance (bhoga) are not opposites — in the realized sādhaka, all life becomes an expression of grace.',
         warning: ''
       }
     ]
@@ -6903,8 +7028,23 @@ function mvOpen(id){
     if(ds.dhyana) h+='<div class="sd-section"><div class="sd-section-title"><span class="sd-icon">&#129491;</span> \u0927\u094d\u092f\u093e\u0928 \u0936\u094d\u0932\u094b\u0915</div>'
       +'<div class="sd-dhyana" style="font-size:0.9rem;color:var(--charcoal);line-height:2;font-family:Georgia,serif;margin-bottom:0.8rem">'+ds.dhyana.replace(/\n/g,'<br/>')+'</div>'
       +'<div class="sd-text" style="font-style:italic;color:var(--muted);font-size:0.82rem">'+ds.dhyana_meaning+'</div></div>';
-    if(ds.krama&&ds.krama.length) h+='<div class="sd-section"><div class="sd-section-title"><span class="sd-icon">&#128203;</span> \u091c\u092a \u0935\u093f\u0927\u093f</div>'
-      +ds.krama.map(function(k,i){return '<div class="sd-step"><div class="sd-step-num">'+(N[i]||i+1)+'</div><div class="sd-step-body"><div class="sd-step-title">'+k+'</div></div></div>';}).join('')+'</div>';
+    if(ds.vidhi_mantras && ds.vidhi_mantras.length){
+      h+='<div class="sd-section"><div class="sd-section-title"><span class="sd-icon">&#128203;</span> &#2360;&#2350;&#2381;&#2346;&#2370;&#2352;&#2381;&#2339; &#2357;&#2367;&#2343;&#2367; &mdash; Mantras Sahit</div>';
+      ds.vidhi_mantras.forEach(function(v,i){
+        h+='<div class="sd-step" style="display:block;padding:0.9rem 0;border-bottom:1px solid rgba(201,150,62,0.1)">';
+        h+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">'
+          +'<div class="sd-step-num" style="min-width:22px">'+(N[i]||i+1)+'</div>'
+          +'<div style="font-size:0.88rem;font-weight:700;color:var(--charcoal)">'+v.step+'</div></div>';
+        h+='<div style="background:rgba(201,150,58,0.06);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:0.7rem 0.9rem;margin-bottom:'+(v.note?'6px':'0')+'">'
+          +'<div style="font-family:Georgia,serif;font-size:0.9rem;color:var(--charcoal);line-height:1.9;white-space:pre-line">'+v.mantra+'</div></div>';
+        if(v.note) h+='<div style="font-size:0.75rem;color:var(--muted);font-style:italic;padding-left:4px">'+v.note+'</div>';
+        h+='</div>';
+      });
+      h+='</div>';
+    } else if(ds.krama&&ds.krama.length){
+      h+='<div class="sd-section"><div class="sd-section-title"><span class="sd-icon">&#128203;</span> &#2332;&#2346; &#2357;&#2367;&#2343;&#2367;</div>'
+        +ds.krama.map(function(k,i){return '<div class="sd-step"><div class="sd-step-num">'+(N[i]||i+1)+'</div><div class="sd-step-body"><div class="sd-step-title">'+k+'</div></div></div>';}).join('')+'</div>';
+    }
     if(ds.naivedya) h+='<div class="sd-section"><div class="sd-section-title"><span class="sd-icon">&#127803;</span> \u0928\u0948\u0935\u0947\u0926\u094d\u092f</div><div class="sd-text">'+ds.naivedya+'</div></div>';
     if(ds.note) h+='<div class="sd-note" style="margin-bottom:1rem">'+ds.note+'</div>';
     if(ds.warning) h+='<div style="background:rgba(220,38,38,0.06);border:1px solid rgba(220,38,38,0.2);border-radius:10px;padding:1rem;margin-bottom:1rem;font-size:0.82rem;color:#b91c1c">&#9888;&#65039; '+ds.warning+'</div>';
